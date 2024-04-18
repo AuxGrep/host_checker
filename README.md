@@ -9,14 +9,14 @@ Software that verifies the status or configuration of a computer or server host.
 
 # Usage
 1. TCP connections
-   sudo python3 check_host.py --host twitter.com --mode tcp
+'sudo python3 check_host.py --host twitter.com --mode tcp
    
-2. PING checks
-   sudo python3 check_host.py --host twitter.com --mode ping
+3. PING checks
+sudo python3 check_host.py --host twitter.com --mode ping
 
-3. HTTP connections
-   sudo python3 check_host.py --host twitter.com --mode http
+4. HTTP connections
+sudo python3 check_host.py --host twitter.com --mode http
 
-4. DNS checks
-   sudo python3 check_host.py --host twitter.com --mode dns
+5. DNS checks
+sudo python3 check_host.py --host twitter.com --mode dns
 
